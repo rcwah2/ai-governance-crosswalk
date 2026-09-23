@@ -64,12 +64,12 @@ Avoid duplicating effort by creating artifacts that satisfy both frameworks:
 
 | Artifact | NIST AI RMF Function | ISO 42001 Clause | Template |
 |---|---|---|---|
-| AI system inventory | MAP | Clause 6.1.4, Annex A.4 | [ai-system-inventory-template](https://github.com/rcwah2/ai-system-inventory-template) |
+| AI system inventory | GOVERN (GOVERN 1.6), MAP | Clause 4.3, Annex A.4 | [ai-system-inventory-template](https://github.com/rcwah2/ai-system-inventory-template) |
 | AI risk assessment | MAP, MEASURE | Clause 6.1, Annex A.4/A.5 | Create within your risk register |
 | Vendor due diligence | GOVERN, MANAGE | Annex A.10 | [ai-vendor-due-diligence-template](https://github.com/rcwah2/ai-vendor-due-diligence-template) |
 | Impact assessment | MAP | Annex A.5 | Document within system inventory |
 | Incident response plan | MANAGE | Annex A.8.4 | Part of vendor governance pack |
-| Statement of Applicability | GOVERN | Clause 6.2 | ISO 42001 requirement |
+| Statement of Applicability | GOVERN | Clause 6.1.3 | ISO 42001 requirement |
 | AI policy | GOVERN | Clause 5.2 | ISO 42001 requirement |
 
 ### Step 4: Map Evidence to Both Frameworks
@@ -77,14 +77,14 @@ Avoid duplicating effort by creating artifacts that satisfy both frameworks:
 When you produce evidence for one framework, tag it for the other:
 
 - A vendor assessment satisfies NIST AI RMF MANAGE (third-party risk) AND ISO 42001 Annex A.10 (suppliers)
-- A bias test satisfies NIST AI RMF MEASURE AND ISO 42001 Annex A.6 (AI performance)
+- A bias test satisfies NIST AI RMF MEASURE AND ISO 42001 Annex A.6.2.4 (AI system verification and validation)
 - An incident response plan satisfies NIST AI RMF MANAGE AND ISO 42001 Annex A.8.4
 
 ### Step 5: Align Review Cadences
 
 | Activity | NIST AI RMF Cadence | ISO 42001 Cadence |
 |---|---|---|
-| AI system inventory review | As systems are added/changed | Clause 6.1.4 — ongoing |
+| AI system inventory review | As systems are added/changed | Clause 4.3, Annex A.4 — ongoing |
 | Risk assessment | Annual or upon material change | Clause 6.1 — annual + on change |
 | Performance monitoring | Continuous | Clause 9 — ongoing |
 | Internal audit | Not required | Clause 9.2 — planned intervals |
