@@ -119,6 +119,10 @@ When you produce evidence for one framework, tag it for the other:
 
 ## License
 
+Copyright (c) 2026 Lissome Technology Consulting.
+
+This work is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You may share and adapt it, including for commercial purposes, provided you give appropriate credit to Lissome Technology Consulting, link to the license, and indicate if changes were made. See [LICENSE](LICENSE) for the full terms.
+
 This guide is provided for educational and professional use. Adapt it to your organization's specific requirements and regulatory obligations.
 
 ## References
